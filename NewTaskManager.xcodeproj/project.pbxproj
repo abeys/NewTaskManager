@@ -14,6 +14,8 @@
 		1DBB84162275E08300C58737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB84142275E08300C58737 /* LaunchScreen.storyboard */; };
 		1DBB841F2275E35A00C58737 /* SwiftReorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBB841E2275E35A00C58737 /* SwiftReorder.framework */; };
 		1DBB84222275E51800C58737 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB84212275E51800C58737 /* TaskCell.swift */; };
+		1DF989AD227697E500FC1579 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF989AC227697E500FC1579 /* SidemenuViewController.swift */; };
+		1DF989B12276C42A00FC1579 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF989B02276C42A00FC1579 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1DBB84172275E08300C58737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DBB841E2275E35A00C58737 /* SwiftReorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftReorder.framework; path = Carthage/Build/iOS/SwiftReorder.framework; sourceTree = "<group>"; };
 		1DBB84212275E51800C58737 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		1DF989AC227697E500FC1579 /* SidemenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		1DF989B02276C42A00FC1579 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,13 @@
 			children = (
 				1DBB840B2275E08100C58737 /* AppDelegate.swift */,
 				1DBB840D2275E08100C58737 /* ViewController.swift */,
+				1DF989AC227697E500FC1579 /* SidemenuViewController.swift */,
 				1DBB840F2275E08100C58737 /* Main.storyboard */,
 				1DBB84122275E08300C58737 /* Assets.xcassets */,
 				1DBB84142275E08300C58737 /* LaunchScreen.storyboard */,
 				1DBB84172275E08300C58737 /* Info.plist */,
 				1DBB84212275E51800C58737 /* TaskCell.swift */,
+				1DF989B02276C42A00FC1579 /* File.swift */,
 			);
 			path = NewTaskManager;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF989B12276C42A00FC1579 /* File.swift in Sources */,
+				1DF989AD227697E500FC1579 /* SidemenuViewController.swift in Sources */,
 				1DBB840E2275E08100C58737 /* ViewController.swift in Sources */,
 				1DBB84222275E51800C58737 /* TaskCell.swift in Sources */,
 				1DBB840C2275E08100C58737 /* AppDelegate.swift in Sources */,
